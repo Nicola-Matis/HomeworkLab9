@@ -8,42 +8,21 @@ public class Main {
         byte Calcul = 5 + 5;
         System.out.println(Calcul);
         //3.
-        byte Impartire = 100 / 5;
+        double Impartire = 100 / 33d;
         System.out.println(Impartire);
         //4.
         //A
-        int a = -5;
-        int b = 8;
-        int c = 6;
-        int d = a + b * c;
-        System.out.println(d);
+        double Calcul1 = -5 + 8 * 6;
+        System.out.println(Calcul1);
         //B
-       int q = 55;
-       int qw = 9;
-       int qwe = q + qw;
-       int qwer = qwe / 9;
-       System.out.println(qwer);
-       //C
-        int w = 20;
-        int we = -3;
-        int wer = 5;
-        int wert = 8;
-        int werty = we * wer;
-        int wertyu = werty / wert;
-        int wertyui= w + wertyu;
-        System.out.println(wertyui);
+        double Calcul2 = (55+9) % 9;
+        System.out.println(Calcul2);
+        //C
+        double Calcul3 = 20 + -3*5 / 8d;
+        System.out.println(Calcul3);
         //D
-        int e = 5;
-        int er = 15;
-        int ert = 3;
-        int erty = 2;
-        int ertyu = 8;
-        int ertyuio = er / ert;
-        int ertyuiop = ertyu / ert;
-        int prealung = ertyuio * 2;
-        int prealung1 = 5 + prealung;
-        int prealung2 = prealung1 - ertyuiop;
-        System.out.println(prealung2);
+        double Calcul4 = 5 + 15 / 3 * 2 - 8 % 3;
+        System.out.println(Calcul4);
     }
 
 
